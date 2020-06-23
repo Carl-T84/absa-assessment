@@ -91,11 +91,5 @@ gradle-app.setting
 #Misc
 version.properties
 allure-results
-loki.properties
-capabilities-android-app-sample.json
-capabilities-ios-app-sample.json
 .Ds_Store
-
-# Latest app versions
-app/*.apk
-app/*.zip
+chromedriver
