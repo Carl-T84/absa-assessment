@@ -17,7 +17,8 @@ public class TestMethods extends BaseClass {
     }
 
     public static void clickNewUser() {
-        driver.findElement(By.xpath("//button[contains(text(),'Add User')]")).click();
+        By addUserButton = By.xpath("//button[contains(text(),'Add User')]");
+        getElement(driver, addUserButton).click();
     }
 
     public static void enterUserOneDetails() {

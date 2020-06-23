@@ -11,10 +11,6 @@ public abstract class BaseClass {
         return element;
     }
 
-    public static WebElement doClick(WebDriver driver, By locator) {
-        return driver.findElement(locator);
-    }
-
     public static int getRandInt() {
         Random rand = new Random();
         int rand_int1 = rand.nextInt(1000);
